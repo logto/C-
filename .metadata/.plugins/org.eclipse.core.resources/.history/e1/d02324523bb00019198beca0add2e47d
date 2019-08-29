@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : Logto.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+enum num {one,two,three,four};
+
+int main()
+{
+	enum num mNum = three;
+	switch (mNum) {
+		case one:
+			cout <<"mNum = one"<<endl;
+			break;
+		case two:
+			cout <<"mNum = two"<<endl;
+			break;
+		case three:
+			cout <<"mNum = three"<<endl;
+			break;
+		default:
+			break;
+	}
+	return 0;
+}
+
+

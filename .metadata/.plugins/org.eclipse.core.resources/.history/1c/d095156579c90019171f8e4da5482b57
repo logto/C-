@@ -1,0 +1,14 @@
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+
+class CEmployee{
+	private :
+		char szName[30];
+	public :
+		int salary;
+		void setName(char * name);
+		void getName(char * name);
+};

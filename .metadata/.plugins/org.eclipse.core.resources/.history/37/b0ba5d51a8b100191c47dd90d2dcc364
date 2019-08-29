@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : Logto.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+
+
+int main(){
+	enum menting{red,black,yellow} mMenting;
+	mMenting = red;
+
+	switch (mMenting) {
+		case red:
+			cout << "red"  red;
+			break;
+		case red:
+
+			break;
+		case red:
+
+			break;
+		default:
+			break;
+	}
+
+
+    return 0;
+}
+
+
+
+
+

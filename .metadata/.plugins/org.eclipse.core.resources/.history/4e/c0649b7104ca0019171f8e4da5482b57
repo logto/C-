@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : Test.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+int main(){
+	cout << "hello,world" << endl;
+	cout << "hello,world" << endl;
+
+	return 0;
+}
+
+namespace Logto{
+class Menting{
+public:
+	char *name;
+	int age;
+	float height;
+public:
+	void say(){
+		printf("%s的年龄是%d,身高是%f\n",name,age,height);
+	}
+};
+}
+
+
+namespace Diy{
+
+class Student{
+
+public:
+	char *name;
+	int age;
+	float score;
+public:
+	void say(){
+		printf("%s的年龄是 %d，成绩是 %f\n", name, age, score);
+	}
+};
+
+}

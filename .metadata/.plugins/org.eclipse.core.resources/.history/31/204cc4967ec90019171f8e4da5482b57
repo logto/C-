@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : Test.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	return 0;
+}
+
+
+class Location {
+private:
+	int x,y;
+public:
+	void init(int x=0,int y=0);
+	void valueX(int val){x=val;}
+	int valueX(){return x;}
+}
+
+Location::init(int x,int y){
+	x = x;
+	y = y;
+}

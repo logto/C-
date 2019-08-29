@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : Logto.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+void func1()
+{
+#define UINT int;
+}
+
+void func2()
+{
+    UINT uValue = 5;//error: 'UINT' was not declared in this scope
+}
+
+int main(){
+	func1();
+	func2();
+
+    return 0;
+}
+
+
+
+
+

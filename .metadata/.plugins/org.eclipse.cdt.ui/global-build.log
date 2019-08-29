@@ -1,0 +1,503 @@
+Info: Nothing to build for Menting
+10:13:24 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+In file included from ..\hello.c:8:
+..\hello.h:11:1: error: unknown type name 'class'
+ class hello {
+ ^~~~~
+..\hello.h:11:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class hello {
+             ^
+..\hello.c:10:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::hello()
+      ^
+..\hello.c:16:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::~hello()
+      ^
+Info: Nothing to build for Menting
+10:13:50 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+In file included from ..\hello.c:8:
+..\hello.h:11:1: error: unknown type name 'class'
+ class hello {
+ ^~~~~
+..\hello.h:11:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class hello {
+             ^
+..\hello.c:10:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::hello()
+      ^
+..\hello.c:16:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::~hello()
+      ^
+Info: Nothing to build for Menting
+10:13:57 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+In file included from ..\hello.c:8:
+..\hello.h:11:1: error: unknown type name 'class'
+ class hello {
+ ^~~~~
+..\hello.h:11:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class hello {
+             ^
+..\hello.c:10:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::hello()
+      ^
+..\hello.c:16:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ hello::~hello()
+      ^
+Info: Nothing to build for Menting
+Info: Nothing to build for Menting
+10:15:25 **** Rebuild of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Menting
+Info: Nothing to build for Logto
+10:22:31 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:23:40 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:24:47 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Logto
+Info: Nothing to build for Logto
+Info: Nothing to build for Logto
+Info: Nothing to build for Logto
+10:29:59 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:43:57 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:44:08 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+11:42:58 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:33:50 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:34:22 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'int main()':
+..\src\Logto.cpp:13:9: error: invalid conversion from 'int' to 'main()::num' [-fpermissive]
+  mNum = 3;
+         ^
+14:34:29 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'int main()':
+..\src\Logto.cpp:13:9: error: invalid conversion from 'int' to 'main()::num' [-fpermissive]
+  mNum = 3;
+         ^
+14:34:39 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'int main()':
+..\src\Logto.cpp:13:9: error: invalid conversion from 'int' to 'main()::num' [-fpermissive]
+  mNum = 3;
+         ^
+14:35:17 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:35:31 **** Clean-only build of configuration Debug for project Logto ****
+rm -rf src/Logto.d Logto.exe src/Logto.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;D:\应用软件\EcpliseDev]
+
+14:35:31 **** Clean-only build of configuration Debug for project Logto ****
+14:39:38 **** Rebuild of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:54:06 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:54:37 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:55:22 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+14:55:55 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+15:17:09 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+15:22:40 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'void func1()':
+..\src\Logto.cpp:13:26: warning: typedef 'UINT' locally defined but not used [-Wunused-local-typedefs]
+     typedef unsigned int UINT;
+                          ^~~~
+..\src\Logto.cpp: In function 'void func2()':
+..\src\Logto.cpp:18:5: error: 'UINT' was not declared in this scope
+     UINT uValue = 5;//error C2065: 'UINT' : undeclared identifier
+     ^~~~
+..\src\Logto.cpp:18:5: note: suggested alternative: 'EINTR'
+     UINT uValue = 5;//error C2065: 'UINT' : undeclared identifier
+     ^~~~
+     EINTR
+15:24:37 **** Clean-only build of configuration Debug for project Logto ****
+rm -rf src/Logto.d Logto.exe src/Logto.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;D:\应用软件\EcpliseDev]
+
+15:24:37 **** Clean-only build of configuration Debug for project Logto ****
+15:25:49 **** Rebuild of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'void func2()':
+..\src\Logto.cpp:18:5: error: 'UINT' was not declared in this scope
+     UINT uValue = 5;//error: 'UINT' was not declared in this scope
+     ^~~~
+..\src\Logto.cpp:18:5: note: suggested alternative: 'EINTR'
+     UINT uValue = 5;//error: 'UINT' was not declared in this scope
+     ^~~~
+     EINTR
+Info: Nothing to build for Menting
+15:26:00 **** Clean-only build of configuration Debug for project Logto ****
+rm -rf src/Logto.d Logto.exe src/Logto.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;D:\应用软件\EcpliseDev]
+
+15:26:00 **** Clean-only build of configuration Debug for project Logto ****
+16:00:18 **** Rebuild of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:27:06 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+..\src\Logto.cpp: In function 'int main()':
+..\src\Logto.cpp:19:20: error: expected ';' before 'red'
+    cout << "red = "  red;
+                    ^ ~~~
+                    ;
+..\src\Logto.cpp:22:22: error: expected ';' before 'black'
+    cout << "black = "  black;
+                      ^ ~~~~~
+                      ;
+..\src\Logto.cpp:25:23: error: expected ';' before 'yellow'
+    cout << "yellow = "  yellow;
+                       ^ ~~~~~~
+                       ;
+10:27:24 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+10:27:37 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Logto
+10:29:33 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Logto
+10:30:00 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Logto
+Info: Nothing to build for Logto
+Build not configured correctly
+18:18:36 **** Incremental Build of configuration Debug for project Logto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logto.o" "..\\src\\Logto.cpp" 
+g++ -o Logto.exe "src\\Logto.o" 
+Info: Nothing to build for Menting
+18:18:37 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Logto
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+Info: Nothing to build for Test
+Info: Nothing to build for Logto
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+09:31:31 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Test
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+09:31:40 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Test
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+09:32:32 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp:11:23: error: stray '\' in program
+  cout << "hello,world"\n;
+                       ^
+..\src\Test.cpp:12:23: error: stray '\' in program
+  cout << "hello,world"\n;
+                       ^
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:11:23: error: expected ';' before 'n'
+  cout << "hello,world"\n;
+                       ^~
+                       ;
+..\src\Test.cpp:12:23: error: expected ';' before 'n'
+  cout << "hello,world"\n;
+                       ^~
+                       ;
+09:32:34 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp:11:23: error: stray '\' in program
+  cout << "hello,world"\n;
+                       ^
+..\src\Test.cpp:12:23: error: stray '\' in program
+  cout << "hello,world"\n;
+                       ^
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:11:23: error: expected ';' before 'n'
+  cout << "hello,world"\n;
+                       ^~
+                       ;
+..\src\Test.cpp:12:23: error: expected ';' before 'n'
+  cout << "hello,world"\n;
+                       ^~
+                       ;
+09:33:22 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+09:33:22 **** Clean-only build of configuration Debug for project Test ****
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+09:33:23 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+09:33:37 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+09:33:37 **** Clean-only build of configuration Debug for project Test ****
+09:33:37 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+09:34:03 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+09:34:03 **** Clean-only build of configuration Debug for project Test ****
+09:34:03 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp:12:27: error: stray '\' in program
+  cout << "hello,world" << \n;
+                           ^
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:12:28: error: 'n' was not declared in this scope
+  cout << "hello,world" << \n;
+                            ^
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+09:34:10 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Test
+10:22:59 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:22:59 **** Clean-only build of configuration Debug for project Test ****
+10:22:59 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp:34:2: error: expected '}' at end of input
+ };
+  ^
+..\src\Test.cpp:22:14: note: to match this '{'
+ namespace Diy{
+              ^
+10:23:15 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:23:15 **** Clean-only build of configuration Debug for project Test ****
+10:23:15 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+10:26:48 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:26:48 **** Clean-only build of configuration Debug for project Test ****
+10:26:48 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:13:2: error: 'Logto' has not been declared
+  Logto::Menting menting;
+  ^~~~~
+10:28:36 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:28:36 **** Clean-only build of configuration Debug for project Test ****
+10:28:36 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:10:2: error: 'Logto' has not been declared
+  Logto::Menting menting;
+  ^~~~~
+10:51:52 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:51:52 **** Clean-only build of configuration Debug for project Test ****
+10:51:52 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:10:2: error: 'Logto' has not been declared
+  Logto::Menting menting;
+  ^~~~~
+10:52:03 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:52:03 **** Clean-only build of configuration Debug for project Test ****
+10:52:03 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:10:2: error: 'Logto' has not been declared
+  Logto::Menting menting;
+  ^~~~~
+10:52:15 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:52:15 **** Clean-only build of configuration Debug for project Test ****
+10:52:15 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'int main()':
+..\src\Test.cpp:10:2: error: 'Logto' has not been declared
+  Logto::Menting menting;
+  ^~~~~
+10:52:59 **** Clean-only build of configuration Debug for project Test ****
+rm -rf src/Test.o src/Test.d Test.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\应用软件\SDK\platform-tools;D:\应用软件\Git\Git\cmd;D:\应用软件\TortoiseGit\bin;C:\MinGW\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\BypassRuntm;C:\Windows\system32]
+
+10:52:59 **** Clean-only build of configuration Debug for project Test ****
+10:52:59 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+10:55:32 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Test
+Build not configured correctly
+Info: Nothing to build for Logto
+Info: Nothing to build for Menting
+11:46:34 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o Test.exe "src\\Test.o" 
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test

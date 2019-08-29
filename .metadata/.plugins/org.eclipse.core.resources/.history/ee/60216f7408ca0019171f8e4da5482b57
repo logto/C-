@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : Test.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+void anotherFunction();
+int main(){
+	cout <<"hello,world" << endl;
+
+	int num = 1;
+	cout << "in main,num = " << num << endl;
+	anotherFunction();
+
+	return 0;
+}
+
+
+void anotherFunction(){
+	int num = 20;
+	cout <<"IN anotherFunction , num is = " << num << endl;
+}
+
+
+

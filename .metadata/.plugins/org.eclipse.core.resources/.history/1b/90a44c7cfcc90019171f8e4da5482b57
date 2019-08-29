@@ -1,0 +1,23 @@
+/*
+ * Location.cpp
+ *
+ *  Created on: 2019Äê8ÔÂ28ÈÕ
+ *      Author: Admin
+ */
+
+#include "Location.h"
+
+namespace std {
+
+Location::Location() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Location::~Location() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */
+
+

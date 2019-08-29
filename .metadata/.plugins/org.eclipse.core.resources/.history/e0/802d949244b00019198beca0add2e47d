@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : Logto.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+class A{
+public:
+    typedef unsigned int UINT;
+    UINT valueA;
+    A() : valueA(0){
+
+    }
+};
+void func3(){
+    A::UINT i = 1;
+    cout << i << endl;
+}
+
+int main(){
+
+
+    return 0;
+}
+
+
+
+
+

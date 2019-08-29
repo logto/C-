@@ -1,0 +1,21 @@
+/*
+ * Location.h
+ *
+ *  Created on: 2019Äê8ÔÂ28ÈÕ
+ *      Author: Admin
+ */
+
+#ifndef LOCATION_H_
+#define LOCATION_H_
+
+namespace std {
+
+class Location {
+public:
+	Location();
+	virtual ~Location();
+};
+
+} /* namespace std */
+
+#endif /* LOCATION_H_ */

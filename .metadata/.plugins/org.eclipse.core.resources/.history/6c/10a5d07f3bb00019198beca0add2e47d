@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : Logto.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include <iostream>
+using namespace std;
+
+#define f(x) x*x
+int main(){
+    int a=6, b=2, c,d;
+    c=f(a) / f(b);
+    d=c/f(b);
+    printf("%d\n", c);
+    return 0;
+}
+
+
